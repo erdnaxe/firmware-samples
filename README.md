@@ -18,6 +18,8 @@ Each script builds or downloads firmware samples from open-source firmware proje
 | QMK             | ARM, AVR                                              | ChibiOS        | 825     |
 | RMK             | ARM, Risc-V                                           | Embassy        | 6       |
 
+Prebuilt samples are available at <https://github.com/erdnaxe/firmware-samples-bin>.
+
 Build all samples using:
 ```
 nix-build am32-bootloader.nix -o result/am32-bootloader
